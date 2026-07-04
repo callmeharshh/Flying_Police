@@ -1,0 +1,22 @@
+# ── Core vision ───────────────────────────────────────────────────────────────
+opencv-python==4.13.0.92
+Pillow==12.2.0
+torch==2.12.0
+torchvision==0.27.0
+transformers==5.10.2
+numpy==2.4.6
+
+# ── Vector DB & embeddings ────────────────────────────────────────────────────
+chromadb==1.5.9
+sentence-transformers==5.5.1
+
+# ── UI & utilities ────────────────────────────────────────────────────────────
+streamlit>=1.33.0
+python-dotenv>=1.0.0
+requests>=2.32.0
+web3>=7.0.0
+
+# ── Architecture diagram (scripts/generate_architecture_ppt.py only) ──────────
+python-pptx>=1.0.2
+lxml>=6.1.1
+matplotlib>=3.9.0

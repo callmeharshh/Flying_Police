@@ -1,0 +1,48 @@
+# Python
+venv/
+.venv
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Data & models
+data/chroma/
+data/events.db
+data/sessions/
+data/uploads/
+data/sample_video/
+data/sample_images/validation/
+data/validation_fixtures/captures/
+data/validation_fixtures/_capture_events.db
+data/validation_fixtures/_capture_chroma/
+*.onnx
+
+# HuggingFace cache
+.cache/
+
+# Test output
+blip_output.txt
+
+# Node / Hardhat
+node_modules/
+
+# Hardhat build output and local sandbox home
+artifacts/
+cache/
+.hardhat-home/
+
+# Secrets
+.env
+.env.local
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/

@@ -1,0 +1,19 @@
+# LangChain packages — installed separately with --no-deps
+# because langchain 0.3.0 metadata declares numpy<2.0.0 which conflicts with
+# opencv-python>=4.9 (requires numpy>=2). At runtime both work fine with numpy 2.x.
+#
+# Install with:
+#   pip install --no-deps -r requirements-langchain.txt
+#
+langchain==0.3.0
+langchain-openai==0.2.0
+langchain-community==0.3.0
+langchain-core==0.3.0
+langchain-text-splitters==0.3.0
+langsmith==0.1.147
+openai>=1.58.1
+tiktoken>=0.7.0
+SQLAlchemy>=1.4,<3
+aiohttp>=3.8.3,<4.0.0
+tenacity!=8.4.0,>=8.1.0
+pydantic>=2.7.4,<3.0.0

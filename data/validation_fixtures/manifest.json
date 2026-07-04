@@ -1,0 +1,62 @@
+{
+  "video": "entrance_area_720p.mp4",
+  "capture_count": 7,
+  "captures": [
+    {
+      "dir": "captures/frame_0298_raw0596",
+      "frame_id": 298,
+      "raw_idx": 596,
+      "has_foreground": true,
+      "has_blip": true,
+      "has_agent": false
+    },
+    {
+      "dir": "captures/frame_0328_raw0656",
+      "frame_id": 328,
+      "raw_idx": 656,
+      "has_foreground": true,
+      "has_blip": true,
+      "has_agent": false
+    },
+    {
+      "dir": "captures/frame_0358_raw0716",
+      "frame_id": 358,
+      "raw_idx": 716,
+      "has_foreground": true,
+      "has_blip": true,
+      "has_agent": false
+    },
+    {
+      "dir": "captures/frame_0388_raw0776",
+      "frame_id": 388,
+      "raw_idx": 776,
+      "has_foreground": true,
+      "has_blip": true,
+      "has_agent": false
+    },
+    {
+      "dir": "captures/frame_0593_raw1186",
+      "frame_id": 593,
+      "raw_idx": 1186,
+      "has_foreground": true,
+      "has_blip": true,
+      "has_agent": false
+    },
+    {
+      "dir": "captures/frame_0623_raw1246",
+      "frame_id": 623,
+      "raw_idx": 1246,
+      "has_foreground": true,
+      "has_blip": true,
+      "has_agent": false
+    },
+    {
+      "dir": "captures/frame_0713_raw1426",
+      "frame_id": 713,
+      "raw_idx": 1426,
+      "has_foreground": true,
+      "has_blip": true,
+      "has_agent": false
+    }
+  ]
+}
