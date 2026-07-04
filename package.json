@@ -1,0 +1,15 @@
+{
+  "name": "flying-police-monad-contracts",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Monad deployment tooling for Flying Police evidence registry.",
+  "scripts": {
+    "compile:contracts": "hardhat compile",
+    "deploy:evidence": "hardhat run scripts/deploy_evidence_registry.js --network monadTestnet"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^6.1.0",
+    "dotenv": "^17.2.0",
+    "hardhat": "^2.26.0"
+  }
+}
