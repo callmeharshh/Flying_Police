@@ -12,6 +12,7 @@ Flying Police is a video surveillance analysis system that processes footage fra
 
 **[Demo trial videos (Google Drive)](https://drive.google.com/drive/u/0/folders/1Xj53ns2BOVryUWKgidTWby3QNLLKiPzH)** — raw and processed footage used during development and testing.
 
+Landing page : regal-cajeta-336b67.netlify.app
 ---
 
 ## Sample Output
