@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+set -euo pipefail
+ROOT="$(cd "$(dirname "$0")/.." && pwd)"
+cd "$ROOT"
+source .venv/bin/activate.sh 2>/dev/null || source venv/bin/activate 2>/dev/null || true
+exec streamlit run ui/app.py --server.headless true

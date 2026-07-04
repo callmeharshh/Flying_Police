@@ -1,0 +1,30 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:mixkit.co)",
+      "WebFetch(domain:pixabay.com)",
+      "Bash(brew list *)",
+      "Bash(pip install *)",
+      "Bash(brew install *)",
+      "Bash(yt-dlp *)",
+      "Bash(python3 *)",
+      "Bash(ffprobe -v quiet -print_format json -show_streams /Users/jayeshshete/Documents/Project/fb/data/sample_video/gate_footage.mp4)",
+      "WebFetch(domain:www.c-mor.com)",
+      "Bash(curl -L -o entrance_area_720p.mp4 \"https://www.c-mor.com/video-surveillance-demo/sample-recordings-of-the-video-surveillance-system-c-mor?download=27:motion-detection-entrance-area\")",
+      "Bash(curl -L -o outside_entry_720p.mp4 \"https://www.c-mor.com/video-surveillance-demo/sample-recordings-of-the-video-surveillance-system-c-mor?download=29:motion-detection-outside-entrance\")",
+      "Bash(ffprobe *)",
+      "Skill(deep-research)",
+      "Workflow(deep-research)",
+      "WebFetch(domain:arxiv.org)",
+      "WebFetch(domain:medium.com)",
+      "WebFetch(domain:ar5iv.labs.arxiv.org)",
+      "WebFetch(domain:www.ncbi.nlm.nih.gov)",
+      "WebFetch(domain:moondream.ai)",
+      "WebFetch(domain:huggingface.co)",
+      "Bash(open *)",
+      "Bash(mkdir -p /Users/jayeshshete/Documents/Project/fb/.codex/skills)",
+      "Bash(cp /tmp/Ai-Agent-Skills/skills/code-documentation/SKILL.md /Users/jayeshshete/Documents/Project/fb/.codex/skills/code-documentation.md)",
+      "Bash(pandoc --version)"
+    ]
+  }
+}
